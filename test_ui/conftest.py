@@ -24,3 +24,5 @@ def set_driver():
     yield driver
     allure.attach(driver.get_screenshot_as_png(), name="Screenshot", attachment_type=AttachmentType.PNG)
     driver.quit()
+
+##Jack test
